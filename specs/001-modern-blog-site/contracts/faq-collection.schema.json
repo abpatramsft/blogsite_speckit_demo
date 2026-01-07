@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://blogsite.example.com/schemas/faq-collection.schema.json",
+  "title": "FAQCollection",
+  "description": "Schema for the faq.json file containing all FAQ entries",
+  "type": "object",
+  "required": ["version", "faqs"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Data schema version",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "examples": ["1.0.0"]
+    },
+    "faqs": {
+      "type": "array",
+      "description": "Array of FAQ entries (minimum 5, recommended 8)",
+      "minItems": 5,
+      "maxItems": 20,
+      "items": {
+        "$ref": "faq-item.schema.json"
+      }
+    }
+  },
+  "additionalProperties": false
+}

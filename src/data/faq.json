@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-15T00:00:00.000Z",
+  "faqs": [
+    {
+      "id": "1",
+      "question": "How often do you publish new blog posts?",
+      "answer": "We publish new blog posts 2-3 times per week, covering the latest trends in web development, design, and technology. Subscribe to our newsletter to get notified when new posts are published.",
+      "order": 1,
+      "category": "General"
+    },
+    {
+      "id": "2",
+      "question": "Can I suggest topics for future blog posts?",
+      "answer": "Absolutely! We love hearing from our readers. You can suggest topics by contacting us through our About page or by leaving comments on existing blog posts. We review all suggestions and prioritize topics based on community interest.",
+      "order": 2,
+      "category": "General"
+    },
+    {
+      "id": "3",
+      "question": "Are the code examples in your posts production-ready?",
+      "answer": "Yes, all code examples are tested and follow current best practices. However, we recommend reviewing and adapting the code to your specific use case and security requirements before deploying to production.",
+      "order": 3,
+      "category": "Technical"
+    },
+    {
+      "id": "4",
+      "question": "How can I share blog posts on social media?",
+      "answer": "Each blog post includes social sharing buttons for easy sharing on Twitter, LinkedIn, and Facebook. You can also copy the post URL and share it anywhere you'd like.",
+      "order": 4,
+      "category": "General"
+    },
+    {
+      "id": "5",
+      "question": "Do you offer RSS feeds for blog updates?",
+      "answer": "Yes, we provide an RSS feed so you can stay updated with our latest posts using your favorite RSS reader. The feed URL is available at /feed.xml.",
+      "order": 5,
+      "category": "Technical"
+    },
+    {
+      "id": "6",
+      "question": "Can I republish or translate your blog posts?",
+      "answer": "We appreciate your interest in sharing our content! Please contact us for permission before republishing or translating posts. We typically grant permission with proper attribution and a link back to the original post.",
+      "order": 6,
+      "category": "Legal"
+    },
+    {
+      "id": "7",
+      "question": "Are there any prerequisites for following your tutorials?",
+      "answer": "Each tutorial specifies its prerequisites at the beginning. Generally, we assume basic knowledge of HTML, CSS, and JavaScript. For advanced topics, we'll indicate if you need experience with specific frameworks or tools.",
+      "order": 7,
+      "category": "Technical"
+    },
+    {
+      "id": "8",
+      "question": "How do I report errors or typos in blog posts?",
+      "answer": "We strive for accuracy, but mistakes happen! Please report any errors, typos, or technical issues by contacting us through the About page. We review and correct issues promptly and appreciate your help in maintaining quality content.",
+      "order": 8,
+      "category": "General"
+    }
+  ]
+}

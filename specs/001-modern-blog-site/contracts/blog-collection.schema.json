@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://blogsite.example.com/schemas/blog-collection.schema.json",
+  "title": "BlogPostCollection",
+  "description": "Schema for the blogs.json file containing all blog post metadata",
+  "type": "object",
+  "required": ["version", "lastUpdated", "posts"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Data schema version",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "examples": ["1.0.0"]
+    },
+    "lastUpdated": {
+      "type": "string",
+      "description": "Timestamp of last update in ISO 8601 format",
+      "format": "date-time",
+      "examples": ["2026-01-07T10:30:00Z"]
+    },
+    "posts": {
+      "type": "array",
+      "description": "Array of blog post metadata (minimum 10 posts required)",
+      "minItems": 10,
+      "items": {
+        "$ref": "blog-post.schema.json"
+      }
+    }
+  },
+  "additionalProperties": false
+}

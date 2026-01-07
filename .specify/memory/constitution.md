@@ -1,50 +1,73 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# BlogSite Constitution
+<!-- Static Web Page Application Requirements and Standards -->
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Static-First Architecture
+All content must be deliverable as static HTML/CSS/JavaScript files without requiring server-side processing. Pages must be pre-rendered or client-side rendered only. No backend dependencies for core functionality. All dynamic features must gracefully degrade when JavaScript is disabled.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Performance Standards
+Page load time must be under 3 seconds on 3G networks. Total page size should not exceed 1MB per page (excluding images). Images must be optimized and use modern formats (WebP with fallbacks). Lazy loading required for below-the-fold content and images.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Responsive Design (NON-NEGOTIABLE)
+Mobile-first approach mandatory. All pages must be fully functional on screens from 320px to 4K. Breakpoints required at minimum: 320px, 768px, 1024px, 1440px. Touch-friendly interface with minimum 44x44px tap targets. Test on real devices before deployment.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Accessibility Standards
+WCAG 2.1 Level AA compliance required. Semantic HTML5 elements mandatory. All images require descriptive alt text. Keyboard navigation must work for all interactive elements. Color contrast ratio minimum 4.5:1 for normal text, 3:1 for large text. Screen reader compatibility verified.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Content & SEO
+Meta descriptions required for all pages (150-160 characters). Open Graph tags mandatory for social sharing. Schema.org structured data for articles/blog posts. Sitemap.xml generated and maintained. Clean, descriptive URLs (no query parameters). Valid HTML5 markup verified.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Technical Constraints
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Technology Stack
+- HTML5 with semantic markup
+- CSS3 (with preprocessors allowed: SASS/LESS)
+- Vanilla JavaScript or modern frameworks (React, Vue, Svelte)
+- Static Site Generator optional (Jekyll, Hugo, Eleventy, Next.js SSG)
+- No server-side languages (PHP, Python, Ruby) for core functionality
+- Package management: npm/yarn allowed for build tools only
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Browser Support
+- Modern browsers: Latest 2 versions of Chrome, Firefox, Safari, Edge
+- Mobile browsers: iOS Safari 12+, Chrome Android latest
+- Progressive enhancement for older browsers
+- Polyfills allowed for critical features only
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Asset Management
+- All assets must be versioned or cache-busted
+- CSS/JS must be minified in production
+- Images optimized with appropriate compression
+- SVG preferred for icons and logos
+- Web fonts limited to 2 font families maximum
+
+## Development Workflow
+
+### Code Quality Standards
+- Valid HTML5 (W3C validator pass)
+- CSS follows BEM or similar naming convention
+- JavaScript follows ESLint standard configuration
+- No inline styles or scripts (except critical CSS)
+- Comments required for complex logic
+- Code must be formatted consistently (Prettier recommended)
+
+### Testing Requirements
+- Cross-browser testing on major browsers
+- Mobile responsiveness tested on real devices
+- Accessibility audit passed (axe, WAVE, or Lighthouse)
+- Performance audit: Lighthouse score 90+ for Performance, Accessibility, Best Practices, SEO
+- Link checker run before deployment (no broken links)
+- Spelling and grammar checked
+
+### Version Control
+- Git required for version control
+- Meaningful commit messages (conventional commits preferred)
+- Feature branches for new content or features
+- Pull requests required for significant changes
+- Main/master branch always deployable
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution defines the non-negotiable standards for the BlogSite static web application. All development must comply with these principles. Performance, accessibility, and responsive design are mandatory—no exceptions. Any deviation requires documented justification and approval. Changes to this constitution require review and consensus before implementation.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-01-07 | **Last Amended**: 2026-01-07

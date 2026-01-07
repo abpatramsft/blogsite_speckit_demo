@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://blogsite.example.com/schemas/faq-item.schema.json",
+  "title": "FAQItem",
+  "description": "Schema for a single FAQ entry",
+  "type": "object",
+  "required": ["id", "question", "answer", "order"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the FAQ",
+      "pattern": "^[a-z0-9-]+$",
+      "minLength": 1,
+      "maxLength": 50,
+      "examples": ["content-license"]
+    },
+    "question": {
+      "type": "string",
+      "description": "The question text",
+      "minLength": 10,
+      "maxLength": 200,
+      "examples": ["Can I share or republish your blog posts?"]
+    },
+    "answer": {
+      "type": "string",
+      "description": "The answer text (supports Markdown)",
+      "minLength": 10,
+      "maxLength": 1000,
+      "examples": [
+        "All content is licensed under CC BY 4.0. You may share with attribution."
+      ]
+    },
+    "order": {
+      "type": "integer",
+      "description": "Display order (ascending)",
+      "minimum": 1,
+      "examples": [1]
+    },
+    "category": {
+      "type": "string",
+      "description": "FAQ category for grouping (optional)",
+      "minLength": 2,
+      "maxLength": 30,
+      "examples": ["content", "technical", "general"]
+    }
+  },
+  "additionalProperties": false
+}
