@@ -61,10 +61,9 @@ This should open VS code in the required project folder.
 /speckit.implement implement the tasks for this rpoejct and udpate the task list as you go.
 ```
 
-6. Some debugging might be needed post the first draft of development. 
-For isntance, I encountered this error - "Clicking on inddividfual blog pages - it returns 404". 
+6. The final artefacts of the specs produced after speckit based development are persisted in the codebase for demonstation purpose in the specs folder [blogsite_project/specs/001-modern-blog-site](blogsite_project/specs/001-modern-blog-site)
 
-Providing this error to copilot, fixed it.
+Note: Some debugging might be needed post the first draft of development. 
 
 7. Further, you can vibe code with copilot to further polish the development and complete the final stage of development.
 
