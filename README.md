@@ -1,9 +1,8 @@
 # Building with github spec-kit
 
-This repository aims at helping you build build applications with spec-kit based development framework
+This repository aims at helping you build build applications with spec-kit based development framework.
 
-The final code produced using github copilot along with spec-kit has been moved into the `blogsite_project/` folder.
-
+The entire project was created via spec-kit based development. The final code produced using github copilot along with spec-kit has been moved into the `blogsite_project/` folder.
 
 
 ## Prerequisites
@@ -68,8 +67,6 @@ For isntance, I encountered this error - "Clicking on inddividfual blog pages - 
 Providing this error to copilot, fixed it.
 
 7. Further, you can vibe code with copilot to further polish the development and complete the final stage of development.
-
-
 
 
 
