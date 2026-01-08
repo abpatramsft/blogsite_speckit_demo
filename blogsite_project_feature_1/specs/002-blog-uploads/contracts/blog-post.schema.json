@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BlogPost",
+  "description": "A published blog post with complete metadata",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "author",
+    "publishedDate",
+    "excerpt",
+    "featuredImage",
+    "featuredImageAlt",
+    "content",
+    "tags",
+    "readingTimeMinutes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9]+$",
+      "description": "Unique sequential identifier for the blog post",
+      "examples": ["11", "12", "100"]
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "maxLength": 100,
+      "description": "URL-safe identifier derived from title",
+      "examples": ["getting-started-with-nextjs-14", "my-new-blog-post"]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Blog post title",
+      "examples": ["Getting Started with Next.js 14: A Complete Guide"]
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Author name",
+      "examples": ["Jane Doe", "John Smith"]
+    },
+    "publishedDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp when post was published",
+      "examples": ["2026-01-08T15:30:45.123Z"]
+    },
+    "excerpt": {
+      "type": "string",
+      "minLength": 100,
+      "maxLength": 500,
+      "description": "Short preview text for blog listing",
+      "examples": ["Learn how to build modern web applications with Next.js 14, the latest version of the popular React framework."]
+    },
+    "featuredImage": {
+      "type": "string",
+      "format": "uri",
+      "description": "Path to featured image or default fallback",
+      "examples": ["/images/blog/nextjs-14.jpg", "/images/blog/default-blog-image.jpg"]
+    },
+    "featuredImageAlt": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 150,
+      "description": "Alt text for featured image (accessibility)",
+      "examples": ["Next.js 14 logo and code editor"]
+    },
+    "content": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+\\.md$",
+      "description": "Filename of markdown content file in src/data/posts/",
+      "examples": ["getting-started-with-nextjs-14.md", "my-new-blog-post.md"]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 50
+      },
+      "minItems": 1,
+      "description": "Free-form tags for categorization",
+      "examples": [["Next.js", "React", "Web Development"], ["TypeScript", "Tutorial"]]
+    },
+    "readingTimeMinutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 60,
+      "description": "Estimated reading time in minutes",
+      "examples": [5, 8, 10]
+    }
+  },
+  "additionalProperties": false
+}
