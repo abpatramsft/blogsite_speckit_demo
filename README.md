@@ -18,8 +18,8 @@ uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 
 | Exercise | Duration | Focus Area | Output Artefact
 |----------|----------|------------|--------------------|
-| [Exercise 1: Building an application from scratch usign spec-kit](Building with spec-kit.md) | 20 min | Spec-kit based development for net new application development | [Output Codebase](blogsite_project)
-| [Exercise 2: Refactoring large applications using spec-kit](Refactoring with spec-kit.md) | 30 min |How to leverage spec-kit to update pre-existing codebases | [Output Codebase](blogsite_project_feature_1)
+| [Exercise 1: Building an application from scratch usign spec-kit](Building%20with%20spec-kit.md) | 20 min | Spec-kit based development for net new application development | [Output Codebase](blogsite_project)
+| [Exercise 2: Refactoring large applications using spec-kit](Refactoring%20with%20spec-kit.md) | 30 min |How to leverage spec-kit to update pre-existing codebases | [Output Codebase](blogsite_project_feature_1)
 
 
 
