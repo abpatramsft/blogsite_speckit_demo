@@ -23,7 +23,7 @@ uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 
 
 
-## Run the blogsite artefact from the Build exercice on local
+## Run the blogsite artefact from the build exercice
 
 Navigate to the project directory and run:
 
@@ -37,7 +37,7 @@ npm run build  # for production build
 For more details, see [blogsite_project/README.md](blogsite_project/README.md)
 
 
-## Run the updated blogsite artefact from the refactpr exercice on local
+## Run the updated blogsite artefact from the refactor exercice
 
 ```bash
 cd blogsite_project_feature_1
@@ -46,6 +46,5 @@ npm run dev  # for development
 npm run build  # for production build
 ```
 
-For more details, see [blogsite_project/README.md](blogsite_project_feature_1\README.md)
 For more details, see [blogsite_project_feature_1/README.md](blogsite_project_feature_1/README.md)
 
