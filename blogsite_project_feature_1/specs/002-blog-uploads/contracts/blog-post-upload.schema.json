@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BlogPost Upload Request",
+  "description": "Form submission payload for creating a new blog post",
+  "type": "object",
+  "required": [
+    "title",
+    "author",
+    "excerpt",
+    "content",
+    "tags",
+    "readingTimeMinutes"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Blog post title (slug auto-generated from this)"
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Author name"
+    },
+    "excerpt": {
+      "type": "string",
+      "minLength": 100,
+      "maxLength": 500,
+      "description": "Short preview text"
+    },
+    "content": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Raw markdown content of blog post"
+    },
+    "tags": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Comma-separated tag string (client form input)"
+        },
+        {
+          "type": "array",
+          "items": { "type": "string", "maxLength": 50 },
+          "minItems": 1,
+          "description": "Parsed array of tags (API internal)"
+        }
+      ]
+    },
+    "readingTimeMinutes": {
+      "type": ["string", "number"],
+      "description": "Reading time (string from form input or number from API)"
+    },
+    "image": {
+      "type": "object",
+      "optional": true,
+      "description": "Featured image upload (optional)",
+      "required": ["data", "mimeType"],
+      "properties": {
+        "data": {
+          "type": "string",
+          "description": "Base64-encoded image data"
+        },
+        "mimeType": {
+          "type": "string",
+          "enum": ["image/jpeg", "image/png", "image/webp"],
+          "description": "MIME type of image"
+        },
+        "originalFileName": {
+          "type": "string",
+          "description": "Original file name from upload"
+        },
+        "size": {
+          "type": "number",
+          "maximum": 3145728,
+          "description": "File size in bytes (max 3 MB)"
+        }
+      }
+    },
+    "featuredImageAlt": {
+      "type": "string",
+      "maxLength": 150,
+      "description": "Alt text for featured image (if provided). Auto-generated from title if omitted."
+    }
+  },
+  "additionalProperties": false
+}

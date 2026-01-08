@@ -37,6 +37,7 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.3",
     "next-sitemap": "^4.2.3"
   }
 }

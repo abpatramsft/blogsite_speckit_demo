@@ -9,6 +9,7 @@ const navigationItems = [
   { label: 'Blogs', href: '/blogs' },
   { label: 'About', href: '/about' },
   { label: 'FAQ', href: '/faq' },
+  { label: 'Upload', href: '/upload' },
 ]
 
 export default function Navigation() {
