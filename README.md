@@ -18,14 +18,16 @@ uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 
 | Exercise | Duration | Focus Area | Output Codebase
 |----------|----------|------------|--------------------|
-| [Exercise 1: Building an application from scratch using spec-kit](Building%20with%20spec-kit.md) | 20 min | Spec-kit based development for net new application development | [blogsite_project](blogsite_project)
-| [Exercise 2: Refactoring large applications using spec-kit](Refactoring%20with%20spec-kit.md) | 30 min |How to leverage spec-kit to update pre-existing codebases | [blogsite_project_feature_1](blogsite_project_feature_1)
+| [Exercise 1: Building an application from scratch using spec-kit](Building%20with%20spec-kit.md) | 50 mins | Spec-kit based development for net new application development | [blogsite_project](blogsite_project)
+| [Exercise 2: Refactoring large applications using spec-kit](Refactoring%20with%20spec-kit.md) | 40 mins |How to leverage spec-kit to update pre-existing codebases | [blogsite_project_feature_1](blogsite_project_feature_1)
+
+Note: The duration indicated is the original duration of the demos during live demonstration, you can always play the video in 2X for quick smaller demonstrations.
 
 
 
 ## Demo video fo the entire application build
 
-[Here](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l) is the demo video for building the blogsite website using spec-kit from scratch.
+[Here](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l) is the demo video for building the blogsite website using spec-kit from scratch. This is complete recording of how to go about Exercise 1.
 
 1. The demo is a long 50 mins demo since the entire build process takes time
 2. The demo has instances that show how github copilot autocorrects and fixes its own issues during development and sticks to plan and core design patterns
