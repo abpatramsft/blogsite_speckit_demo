@@ -1,6 +1,6 @@
 # Building with github spec-kit
 
-This repository aims at helping you and guiding you on how to build a sample blog site applications with [spec-kit](https://github.com/sekmet/github-spec-kit.git) based development framework
+This repository aims at helping you and guiding you on how to build a sample application (building a blog website) with [spec-kit](https://github.com/sekmet/github-spec-kit.git) based development framework
 Please note: There is not need to clone the repo, but the repo serves as a static output artefact of github spec-kit based development. You can follow the steps in each of the exercises to demonstrate spec-kit based development for your customer presentations
 
 The project code was created via spec-kit based development. The final code produced using github copilot along with spec-kit has been moved into the `blogsite_project/` folder and `blogsite_project_feature_1/` folder.
