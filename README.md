@@ -23,6 +23,15 @@ uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 
 
 
+## Demo video fo the entire application build
+
+[Here](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l) is the demo video for building the blogsite website using spec-kit from scratch.
+
+1. The demo is a long 50 mins demo since the entire build process takes time
+2. The demo has instances that show how github copilot autocorrects and fixes its own issues during development and sticks to plan and core design patterns
+3. It also shows how with spec-kit based development once we reach 80% perfection we can nudge and vibecode with copilot to provide the finishing touches to get a well designed fully fleshed out application
+4. The video has a voice over explaining the various parts of development and highlighting the above mentioned aspects. You can always choose to mute and play ti with your own voice over
+
 ## Run the blogsite artefact from the build exercice
 
 Navigate to the project directory and run:
