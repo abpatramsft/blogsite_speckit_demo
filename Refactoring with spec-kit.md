@@ -79,7 +79,7 @@ Nudge copilot to create the task list based on the plan.
 Intiatite the implementation of the planned tasks via copilot.
 
 
-7. The final artefacts of the specs produced after speckit based development are persisted in the codebase for demonstation purpose in the specs folder [blogsite_project_feature_1\specs\002-blog-uploads](blogsite_project_feature_1\specs\002-blog-uploads)
+7. The final artefacts of the specs produced after speckit based development are persisted in the codebase for demonstation purpose in the specs folder [blogsite_project_feature_1\specs\002-blog-uploads]( blogsite_project_feature_1/specs/002-blog-uploads)
 
 8. Further, you can vibe code with copilot to further polish the development and complete or refine the final stages of development.
 
