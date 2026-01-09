@@ -31,7 +31,7 @@ Aim: my blogging website doesn't have an upload functionality. I want there to b
 
 2. Create the spec
 ```
-/speckit.specify I want to build an uploads page where the user can upload blogs - sort of filling in the required values(whatever is requried and needs user entered details liek title, author, excerpt, image(optional if not resets to the default one), content, tags, readingtime) for posts. 
+/speckit.specify I want to build an uploads page where the user can upload blogs - sort of filling in the required values(whatever is requried and needs user entered details like title, author, excerpt, image(optional if not resets to the default one), content, tags, readingtime) for posts. 
 
 Example:
 {
@@ -60,7 +60,7 @@ Answer the clartifying questions to keep the feature specs minimal and light wei
 
 4. Create the plan
 ```
-/speckit.plan Refer the README.md for technical specs already there, build a new page and required endpoint for upload. Storehte data in data folder only. Follow the same desing pattersn and styling aptters as available.
+/speckit.plan Refer the README.md for technical specs already there, build a new page and required endpoint for upload. Store the data in data folder only. Follow the same design patterns and styling patterns as available.
 ```
 
 5. Create the tasks
