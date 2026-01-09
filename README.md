@@ -26,7 +26,7 @@ Note: The duration indicated is the original duration of the demos during live d
 
 
 
-## Demo video fo the entire application build
+## Demo video of the entire application build journey using spec-kit
 
 [Here](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l) is the demo video for building the blogsite website using spec-kit from scratch. This is complete recording of how to go about Exercise 1.
 
