@@ -14,6 +14,12 @@ Before you start, ensure you have installed spec-kit via terminal:
 uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 ```
 
+## BlogSite Preview
+
+![BlogSite Dashboard](assets/blogsite-preview.png)
+
+>  What I cannot create, I do not understand. -Richard Feynman
+
 
 ## Demo Structure
 
@@ -23,8 +29,6 @@ uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 | [Exercise 2: Refactoring existing applications using spec-kit](Refactoring%20with%20spec-kit.md) | 35 mins |How to leverage spec-kit to update pre-existing codebases | [blogsite_project_feature_1](blogsite_project_feature_1) | [Video](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCjpYttjUJST6Ejc41CpeLQARBan5AF10iVq7TDRIleWgg?e=y6ltfA)
 
 Note: The duration indicated is the original duration of the demos during live demonstration, you can always play the video in 2X for quick smaller demonstrations.
-
-
 
 ## Demo video of the entire application build journey using spec-kit
 
