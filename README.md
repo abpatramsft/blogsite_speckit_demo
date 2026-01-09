@@ -28,7 +28,8 @@ Note: The duration indicated is the original duration of the demos during live d
 
 ## Demo video of the entire application build journey using spec-kit
 
-1. Exercise 1: Building amm application from scrath using spec-kit
+### Exercise 1: Building amm application from scrath using spec-kit
+
 [Here](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l) is the demo video catpruing teh entire experience of using spec-kit for application development from scratch. This is complete recording of how to go about Exercise 1.
 
 (a) The demo is a long 50 mins demo since the entire build process takes time
@@ -36,7 +37,7 @@ Note: The duration indicated is the original duration of the demos during live d
 (c) It also shows how with spec-kit based development once we reach 80% perfection we can nudge and vibecode with copilot to provide the finishing touches to get a well designed fully fleshed out application
 (d) The video has a voice over explaining the various parts of development and highlighting the above mentioned aspects. You can always choose to mute and play ti with your own voice over
 
-2. Exercise 2: Refactoring large application using spec-kit
+### Exercise 2: Refactoring large application using spec-kit
 
 [Here](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCjpYttjUJST6Ejc41CpeLQARBan5AF10iVq7TDRIleWgg?e=y6ltfA) is the demo video demonstrating the use of github spec-kit to work with an existing application codebase and add a new feature
 
