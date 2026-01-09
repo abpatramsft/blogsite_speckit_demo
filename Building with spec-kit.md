@@ -28,7 +28,7 @@ This should open VS code in the required project folder.
 
 2. Create the spec
 ```
-/speckit.specify Build a modern bloging website. The UI should slook and modern. It should have one landing page with the latest publisdhed blog; and it should blogs page that has all the blogs, FAQ page and an abouts page. It should have about 10 blogs - mock all the data nothing to pull from real feed
+/speckit.specify Build a modern bloging website. The UI should sleek and modern. It should have one landing page with the latest published blog; and it should have blogs page that has all the blogs, FAQ page and an abouts page. It should have about 10 blogs - mock all the data nothing to pull from real feed
 ```
 
 3. Create the plan
@@ -43,7 +43,7 @@ This should open VS code in the required project folder.
 
 5. Implement the tasks
 ```
-/speckit.implement implement the tasks for this rpoejct and udpate the task list as you go.
+/speckit.implement implement the tasks for this project and udpate the task list as you go.
 ```
 
 6. The final artefacts of the specs produced after speckit based development are persisted in the codebase for demonstation purpose in the specs folder [blogsite_project/specs/001-modern-blog-site](blogsite_project/specs/001-modern-blog-site)
