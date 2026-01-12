@@ -4,7 +4,7 @@ Once spec-kit is installed, create a project with spec-kit in the required folde
 
 ```shell
 cd required-folder-path
-specifiy init < PROJECT_NAME >
+specify init < PROJECT_NAME >
 ```
 
 In this case the PROJECT_NAME="blogsite_project".
@@ -28,7 +28,7 @@ This should open VS code in the required project folder.
 
 2. Create the spec
 ```
-/speckit.specify Build a modern bloging website. The UI should sleek and modern. It should have one landing page with the latest published blog; and it should have blogs page that has all the blogs, FAQ page and an abouts page. It should have about 10 blogs - mock all the data nothing to pull from real feed
+/speckit.specify Build a modern blogging website. The UI should sleek and modern. It should have one landing page with the latest published blog; and it should have blogs page that has all the blogs, FAQ page and an abouts page. It should have about 10 blogs - mock all the data nothing to pull from real feed
 ```
 
 3. Create the plan
@@ -66,4 +66,4 @@ npm run build  # for production build
 For more details, see [blogsite_project/README.md](blogsite_project/README.md)
 
 
-Note: The demo is 90% viebcoded so my produced artefacts might be different from yours even with the same set of prompts.
+Note: The demo is 90% vibe-coded so my produced artefacts might be different from yours even with the same set of prompts.
