@@ -25,8 +25,8 @@ uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 
 | Exercise | Duration | Focus Area | Output Codebase | Video
 |----------|----------|------------|--------------------|-------|
-| [Exercise 1: Building an application from scratch using spec-kit](Building%20with%20spec-kit.md) | 50 mins | Spec-kit based development for net new application development | [blogsite_project](blogsite_project) | [Video](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l)
-| [Exercise 2: Refactoring existing applications using spec-kit](Refactoring%20with%20spec-kit.md) | 35 mins |How to leverage spec-kit to update pre-existing codebases | [blogsite_project_feature_1](blogsite_project_feature_1) | [Video](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCjpYttjUJST6Ejc41CpeLQARBan5AF10iVq7TDRIleWgg?e=y6ltfA)
+| [Exercise 1: Building an application from scratch using spec-kit](Building%20with%20spec-kit.md) | 50 mins | Spec-kit based development for net new application development | [blogsite_project](blogsite_project) | [Video]([https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk))
+| [Exercise 2: Refactoring existing applications using spec-kit](Refactoring%20with%20spec-kit.md) | 35 mins |How to leverage spec-kit to update pre-existing codebases | [blogsite_project_feature_1](blogsite_project_feature_1) | [Video]([https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCjpYttjUJST6Ejc41CpeLQARBan5AF10iVq7TDRIleWgg?e=y6ltfA](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCjpYttjUJST6Ejc41CpeLQARBan5AF10iVq7TDRIleWgg))
 
 Note: The duration indicated is the original duration of the demos during live demonstration, you can always play the video in 2X for quick smaller demonstrations.
 
@@ -34,7 +34,7 @@ Note: The duration indicated is the original duration of the demos during live d
 
 ### (a) Exercise 1: Building an application from scratch using spec-kit
 
-[Here](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l) is the demo video capturing the entire experience of using spec-kit for application development from scratch. This is complete recording of how to go about Exercise 1.
+[Here]([https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk?e=h62n9l](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCfqKmUagGURZevK_oweIbKAQ_73INXMBAZtm2YOyfSmZk)) is the demo video capturing the entire experience of using spec-kit for application development from scratch. This is complete recording of how to go about Exercise 1.
 
 1. The demo is a long 50 mins demo since the entire build process takes time
 2. The demo has instances that show how github copilot autocorrects and fixes its own issues during development and sticks to plan and core design patterns
@@ -43,7 +43,7 @@ Note: The duration indicated is the original duration of the demos during live d
 
 ### (b) Exercise 2: Refactoring large application using spec-kit
 
-[Here](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCjpYttjUJST6Ejc41CpeLQARBan5AF10iVq7TDRIleWgg?e=y6ltfA) is the demo video demonstrating the use of github spec-kit to work with an existing application codebase and add a new feature
+[Here]([https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCjpYttjUJST6Ejc41CpeLQARBan5AF10iVq7TDRIleWgg?e=y6ltfA](https://microsoftapc-my.sharepoint.com/:v:/g/personal/abpatra_microsoft_com/IQCjpYttjUJST6Ejc41CpeLQARBan5AF10iVq7TDRIleWgg)) is the demo video demonstrating the use of github spec-kit to work with an existing application codebase and add a new feature
 
 1. The demo is roughly a 30 mins long demo video capturing the entire process of refactoring the blogsite application to add an uploads page and functionality to the web app
 2. For the scope of demonstration the same artefact produced out of exercise 1 was used (removing pre-existing speckit files); and to show how spec-kit can be used to refactor net new projects
