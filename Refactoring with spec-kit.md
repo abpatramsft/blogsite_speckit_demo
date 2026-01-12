@@ -8,7 +8,10 @@ specifiy init .
 ```
 
 In this case the PROJECT_NAME="blogsite_project_feature_1".
-Follow the prompts as shown on the screen to set up spec-kit for copilot.
+
+Note: For the scope of development I removed preexisting constituion.md and spec folders from the `blogsite_project` and copied the content into a seaprate folder and renamed it  to "required-folder-path" to demonstrate the use of spec-kit based development on existing codebases.
+
+Follow the prompts and instructions as shown on the screen to set up spec-kit for copilot.
 
 In the terminal, navigate to the project folder and open vs code
 
@@ -17,7 +20,7 @@ code .
 ```
 
 This should open VS code in the required project folder.
-Note: For the scope of development I removed preexisting contituion and spec folders from the `blogsite_project` and created a seaprate folder to demonstrate the use of spec-kit based development on existing codebases.
+
 
 
 ## Spec-kit based refactoring and feature development
